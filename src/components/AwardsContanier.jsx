@@ -1,13 +1,13 @@
 import React from 'react'
+import Award from './Award'
 
 const AwardsContanier = () => {
     return (
         <div className='awards-container'>
-     
-      <AwardsContanier/>
-
-
-
+        <Award/>
+        <Award/>
+        <Award/>
+        <Award/>
         </div>
     )
 }

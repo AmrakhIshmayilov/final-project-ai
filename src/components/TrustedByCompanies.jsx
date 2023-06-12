@@ -1,6 +1,7 @@
 import React from 'react'
 import Company from './Company'
-import { Swiper, SwiperSlide, AutoPlay } from "swiper/react";
+// import { Swiper, SwiperSlide, AutoPlay } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
 // import required modules
 import { Autoplay } from 'swiper';
 import "swiper/css";

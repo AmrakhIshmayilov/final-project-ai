@@ -31,7 +31,7 @@ const Introduction = () => {
       </div>
 
       <div className='right-side  col-12 col-md-6  d-flex justify-content-end'>
-        <img src={introductionImg} className='w-100' />
+        <img src={introductionImg} className='w-100' alt='' />
       </div>
     </div>
   )
