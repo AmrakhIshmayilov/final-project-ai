@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+
+body {
+    /*background-color: #222;*/
+    background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+
+/* Overlay Component'nin stili*/
+.overlay {
+    background-color: rgb(0, 0, 0, .8);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: 9;
+    overflow-x: hidden;
+    transition: width 1.7s ease;
+
+}
+
+.cross-icon {
+    position: absolute;
+    right: 40px;
+    font-size: 44px;
+    color: whitesmoke;
+    top: 44px;
+    cursor: pointer;
+}
+
+.aktiv {
+    width: 100%;
+
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 44px;
+    color: whitesmoke;
+}
+
+.nav-links a:hover {
+    color: whitesmoke;
+    transform: translateX(70px);
+    transition: all 1.2s ease;
+}
+
+
+.wrapper {
+    padding: 0 387px;
+
+}
+
+
+/*NAVBAR COMPONENT START */
+.my-custom-btn {
+    background: #3A68B8;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-decoration: none;
+    min-width: 100px;
+ 
+
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+   /* padding: 20px !important;*/
+    margin-right: 10px;
+
+
+}
+
+
+/* Before ve After fake classlardir*/
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 70%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 1.2s ease;
+}
+
+.nav-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+
+
+}
+
+
+.bars-icon {
+    color: #fff;
+    font-size: 44px;
+    display: none;
+}
+
+@media(max-width:1860px) and (min-width:576px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .bars-icon {
+        display: block !important;
+    }
+}
+
+/*NAVBAR COMPONENT END*/
+
+
+
+
+/* INTRODUCTION START */
+
+.introduction {
+    color: whitesmoke;
+}
+
+.introduction h1 {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+     color: whitesmoke;
+}
+
+.introduction .left-side {
+    padding-top: 160px;
+}
+
+
+.introduction h6 {
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+text-transform: uppercase;
+color: #3A68B8;
+
+}
+
+
+.introduction p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+
+/* #FFFFFF */
+
+color: #FFFFFF;
+
+opacity: 0.7;
+margin-top: 40px;
+}
+
+
+
+/* INTRODUCTION END */
+
+
+
+
+/* Trusted Company start */
+
+
+.company{
+    width: 212px;
+    
+}
+
+/* Trusted Company end */
+
+
+
+
+
+/* Apply section start */
+.apply-section{
+    padding-top: 130px !important;
+}
+
+
+.apply-section >.left-side{
+    max-width: 725px;
+}
+
+.apply-section h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+
+.apply-section p {
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+color: #FFFFFF;
+opacity: 0.7;
+}
+
+.right-side button {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 30px;
+color: whitesmoke;
+width: 150px;
+height: 52px;
+left: 1049px;
+top: 1600px;
+background: #3A68B8;
+border-radius: 5px;
+}
+
+
+/* Apply section end */
+
+
+
+
+
+
+/*Award Start*/
+
+.award{
+    width: 362px;
+    min-width: 362px;
+    height: 389px;
+    background-color: black;
+    
+}
+
+
+
+
+
+
+
+/*Award End */
