@@ -4,7 +4,7 @@ const Award = () => {
   return (
      <div className='award'>
       
-       <Award/>
+       
        
  
 
