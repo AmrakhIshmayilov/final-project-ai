@@ -9,18 +9,21 @@ import Apply from "./components/Apply";
 // import Award from './components/Award';
 import AwardsContanier from "./components/AwardsContanier";
 import WhatAboutClients from "./components/WhatAboutClients";
+import Footer from "./components/Footer";
 // Komponentlerin daxil edildiyi yer (END) //
+
+// Marshut Komponentleri
+
 function App() {
   return (
     <>
-      <div className="wrapper">
-        <Navbar />
-        <Introduction />
-        <TrustedByCompanies />
-        <Apply />
-        <AwardsContanier />
-        <WhatAboutClients />
-      </div>
+      <Navbar />
+      <Introduction />
+      <TrustedByCompanies />
+      <Apply />
+      <AwardsContanier />
+      <WhatAboutClients />
+      <Footer />
     </>
   );
 }
